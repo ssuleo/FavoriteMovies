@@ -1,0 +1,113 @@
+
+.container {
+  width: 80%;
+  height: 85vh;
+  margin: 70px auto;
+  display: flex;
+  border-radius: 10px;
+  background: #3a36e4; 
+  background: -webkit-linear-gradient(
+    to right,
+    #656569,
+    #41454e
+  ); 
+  background: linear-gradient(
+    to right,
+    #060527,
+    #acc3fd
+  ); 
+}
+h3{
+  margin-top: 10px;
+  margin-right: 80px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 55px;
+  letter-spacing: 2px;
+  font-family: "Nerko One", cursive;
+}
+
+.brand-box {
+  flex: 1 50%;
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.magic-form {
+  flex: 1 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 70px;
+  font-size: 23px;
+  color: #3f3f40;
+  background: #fff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.input {
+  text-align: center;
+  color: #1515a1;
+  padding: 4px 6px;
+  font-size: 16px;
+  width: 80%;
+  display: block;
+  border-radius: 4px;
+  border: 1px solid #461fb3;
+  margin: 10px 0;
+}
+
+.inputt:focus {
+  border-color: #185a9d;
+  outline: none;
+}
+
+.inputt-feedback {
+  color: red;
+  margin-top: 0.25rem;
+  font-size: 15px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+} 
+
+
+.checkbox-label {
+  display: inline;
+  font-size: 12px;
+}
+
+button {
+
+  margin: 20px auto;
+  text-align: center;
+  margin-left: 160px;
+  padding: 8px 12px;
+  border-style: none;
+  border-radius: 5px;
+  background-color: #064a06;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  font-size: 17px;
+  font-weight: 500;
+  color: #050000;
+  cursor: pointer;
+  outline: none;
+
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed !important;
+}
+
+.topMargin {
+  margin-top: 1rem;
+}
